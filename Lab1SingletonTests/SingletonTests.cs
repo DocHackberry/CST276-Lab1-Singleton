@@ -13,9 +13,11 @@ namespace SingletonTests
         [Test]
         public void TestNonSingleInstance()
         {
+            //Create two non-Singleton loggers
             Logger s1 = new Logger(true);
             Logger s2 = new Logger(true);
 
+            //Confirm that they are in fact different instances
             Console.WriteLine("s1: {0} s2: {1}", s1.GetHashCode(), s2.GetHashCode());
             Assert.That(s1.GetHashCode(), Is.Not.EqualTo(s2.GetHashCode()));
         }
