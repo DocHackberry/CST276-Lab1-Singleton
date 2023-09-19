@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{CC069052-74D0-4DAB-82CD-6A477E75AE3F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>SingletonDemo</RootNamespace>
-    <AssemblyName>SingletonDemo</AssemblyName>
+    <RootNamespace>Lab1Singleton</RootNamespace>
+    <AssemblyName>Lab1Singleton</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

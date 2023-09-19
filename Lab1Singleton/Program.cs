@@ -17,14 +17,14 @@ namespace SingletonDemo
         {
             Console.WriteLine("In Main");
 
-            //Performance test between Singleton types
-            ThreadSafeOverhead(200000000);
-
             //Simple Singleton Example
             Singleton();
 
             //Scoped Singleton that allows garbage collection
             ScopedSingleton();
+
+            //Performance test between Singleton types
+            ThreadSafeOverhead(200000000);
 
             Console.WriteLine("Done...");
             Console.ReadKey();

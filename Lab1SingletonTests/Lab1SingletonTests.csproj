@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SingletonDemo\SingletonDemo.csproj" />
+    <ProjectReference Include="..\Lab1Singleton\Lab1Singleton.csproj" />
   </ItemGroup>
 
 </Project>
